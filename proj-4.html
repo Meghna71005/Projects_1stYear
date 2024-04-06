@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj-4</title>
+    <style>
+        .inner{
+            display: flex;
+            flex-direction: row;
+           
+        }
+        .whole{
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            padding: 7px;
+            
+        }
+        .Home,
+        .ABOUT,
+        .Services,
+        .Contact,
+        .Feedback{
+            height: 40px;
+            width:70px;
+            background-color: white;
+           
+            margin-left: 25px;
+            border-width: 1px;
+            border-color: rgb(245, 239, 239);
+            padding: 3px;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+            border-radius: 3px;
+
+
+        }
+        .Feedback{
+            width: 100px;
+        }
+        .Contact,
+        .Services{
+            width: 90px;
+        }
+
+
+    </style>
+<body>
+    <div class="whole">
+        <div class="outer"></div>
+        <div class="inner">
+            <button class="Home" type="button">Home</button>
+            <button class="ABOUT" type="button">About</button>
+            <button class="Services" type="button">Services</button>
+            <button class="Contact" type="button">Contact</button>
+            <button class="Feedback" type="button">Feedback</button>
+        </div>
+    </div>
+    
+</body>

@@ -1,0 +1,48 @@
+
+.h1{
+    font-family: Arial;
+    font-size:70px;
+    color: #480303;
+    }
+.fname{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.lname{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.c-no{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.age{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.dob{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.email{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.pd{
+
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.bio{
+    margin-top: 10px;
+    margin-bottom:10px;
+    height: 50px;
+    padding:5px;
+    text-size:50px; 
+    
+}
+.button{
+    margin-top: 10px;
+}

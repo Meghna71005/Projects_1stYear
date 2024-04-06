@@ -1,0 +1,134 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.header{
+    margin-top: 0px;
+
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-image: url("pop.jpg");
+    width: 100vw;
+    justify-content: center;
+}
+.View{
+    margin-top: 15px;
+    height: 36px;
+    margin-left: 80px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    width: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.View:hover{
+    opacity: .3;
+    transition:.1s;
+    cursor: pointer;
+}
+.submit{
+    color: white;
+    background-color:rgb(197, 189, 180);
+    border-radius: 25px;
+    width: 126px;
+    text-align:center ;
+    font-weight:bold ;
+    border: none;
+    height: 26px;
+    
+}
+.submit:hover{
+    opacity: 0.3;
+    transition:.1s;
+    cursor: pointer;
+}
+.blck1{
+    margin-top: 25px;
+    margin-left: 80px;
+    
+    height: 40px;
+    display: inline-block;
+}
+.blck2{
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 80px;
+
+
+}
+.blck3{
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.blck4{
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.blck5{
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.left{flex: 1fr;
+    margin-top: 20px;
+   
+    width: 500px;
+}
+.right{
+    flex: 1fr;
+    width:800px ;
+    
+
+}
+
+.img{
+
+    display:inline-block;
+    width: 450px;
+    height: 650px;
+    object-fit:cover;
+    margin-top: 70px;
+}
+.hey
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 34px;
+    margin-top: 85px;
+    height: 50px;
+
+}
+.intro{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 34px;
+    margin-top: 10px;
+    height: 50px;
+}
+.para{
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ed{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 34px;
+
+}
+.edu{
+    font-size: 20px;
+
+}
